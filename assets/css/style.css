@@ -1,0 +1,123 @@
+@font-face {
+    font-family: japa;
+    src: url(../fonts/Tokyo\ 2097.otf);
+}
+@font-face {
+    font-family: japa2;
+    src: url(../fonts/The\ Last\ Shuriken.ttf);
+}@font-face {
+    font-family: basics1;
+    src: url(../fonts/Geoform-ExtraBold.otf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/tokyo-background-5x23qn8ax5zvdjke.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: basics1;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(78, 9, 9);
+}
+#comida{
+    width: 80vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: japa2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.comidas{
+    width: 20vw;
+    height: 30vh;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+#pontos{
+    width: 80vw;
+    min-height: 90vh;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+.turisticos{
+    width: 40vh;
+    height: 40vh;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+img:hover{
+    border: solid 3px red;
+}
+#persona{
+    width: 80vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+.personas{
+    width: 20vw;
+    height: 30vh;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+#animal{
+    width: 80vw;
+    min-height: 90vh;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+.animais{
+    width: 40vh;
+    height: 40vh;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+#mercados{
+    width: 80vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+.mercado{
+    width: 20vw;
+    height: 30vh;
+    border: solid 5px black;
+    border-radius: 20px;
+}

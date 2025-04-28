@@ -23,7 +23,8 @@ h1{
     color: white;
     font-family: basics1;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(78, 9, 9);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    background-image: url(../images/gojo.gif);
 }
 #comida{
     width: 80vw;
@@ -43,6 +44,7 @@ h2{
     font-family: japa2;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    margin: 30px auto;
 }
 .comidas{
     width: 20vw;
@@ -68,7 +70,8 @@ h2{
     border: solid 5px black;
 }
 img:hover{
-    border: solid 3px red;
+    border: solid 3px rgb(4, 0, 255);
+    size: 150px;
 }
 #persona{
     width: 80vw;

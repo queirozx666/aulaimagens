@@ -26,6 +26,9 @@ h1{
     -webkit-text-stroke-color: rgb(0, 0, 0);
     background-image: url(../images/gojo.gif);
 }
+html{
+    scroll-behavior: smooth;
+}
 #comida{
     width: 80vw;
     height: 40vh;
